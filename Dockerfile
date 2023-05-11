@@ -10,6 +10,6 @@ COPY . /app
 # Install any needed packages specified in requirements.txt
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 RUN ls -la
-
+RUN pytest -vv
 # Run the command to start the Flask web server
 CMD ["python3", "src/main.py"]
