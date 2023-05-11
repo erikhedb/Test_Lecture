@@ -48,10 +48,11 @@ docker build -t my-py .
 - Launch debug 
 
 # Lab Step 5
-- In what direction should we take lab 3
--- main with DB connection and testcase on demand?
--- main flask web-app with proper test cases?
--- Other?
+In what direction should we take lab 3
+- main with DB connection and testcase on demand?
+- main flask web-app with proper test cases?
+- Python 3.11 features and more?
+- Other?
 
 # Lab step 6
 Clean up docker
